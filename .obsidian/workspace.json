@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "b8cd0a20f6efc54e",
+    "type": "split",
+    "children": [
+      {
+        "id": "363b41a8c83df5f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f277e3601e892778",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Licensing error while setting up Windows Server on VMware.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Licensing error while setting up Windows Server on VMware"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0ad571c106b948f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "efa0916477dadefe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be2869734d23bf72",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f4e4f36cc5464458",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7aa01068902aa2ee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "58e9c77c8fc70f42",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f06694d7ff6d9c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "feef677cb2feb297",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Licensing error while setting up Windows Server on VMware.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Licensing error while setting up Windows Server on VMware"
+            }
+          },
+          {
+            "id": "5b7a56fd2201c256",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Licensing error while setting up Windows Server on VMware.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Licensing error while setting up Windows Server on VMware"
+            }
+          },
+          {
+            "id": "0c9b4fdcecbf093b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0315423a9c9d5ab2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Licensing error while setting up Windows Server on VMware.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Licensing error while setting up Windows Server on VMware"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f277e3601e892778",
+  "lastOpenFiles": [
+    "README.md",
+    "Licensing error while setting up Windows Server on VMware.md"
+  ]
+}

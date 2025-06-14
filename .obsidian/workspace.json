@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Licensing error while setting up Windows Server on VMware.md",
+                "file": "NIC Teaming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Licensing error while setting up Windows Server on VMware"
+              "title": "NIC Teaming"
             }
           }
         ]
@@ -168,11 +168,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f277e3601e892778",
+  "active": "be2869734d23bf72",
   "lastOpenFiles": [
+    "Disable title bar for app window in i3-wm.md",
+    "Licensing error while setting up Windows Server on VMware.md",
+    "NIC Teaming.md",
     "What's the difference between storages in Proxmox.md",
     "Laptop lid doesn't go into sleep mode after you've closed it.md",
-    "README.md",
-    "Licensing error while setting up Windows Server on VMware.md"
+    "README.md"
   ]
 }

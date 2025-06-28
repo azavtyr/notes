@@ -11,14 +11,10 @@
             "id": "f277e3601e892778",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Active Directory Breaks When Using NAT.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Active Directory Breaks When Using NAT"
+              "title": "New tab"
             }
           }
         ]
@@ -170,15 +166,26 @@
   },
   "active": "f277e3601e892778",
   "lastOpenFiles": [
+    "README.md",
+    "Active Directory Breaks When Using NAT.md",
+    "docs/What's the difference between storages in Proxmox.md",
+    "docs/What's the difference between container and VM?.md",
+    "docs/What is Docker Compose?.md",
+    "docs/README.md",
+    "docs/NIC Teaming.md",
+    "docs/Licensing error while setting up Windows Server on VMware.md",
+    "docs/Laptop lid doesn't go into sleep mode after you've closed it.md",
+    "docs/Disable title bar for app window in i3-wm.md",
+    "docs/Alert blocks GitHub Flavored Markdown.md",
+    "docs/Active Directory Breaks When Using NAT.md",
+    "docs",
     "What is Docker Compose?.md",
     "What's the difference between container and VM?.md",
     "Alert blocks GitHub Flavored Markdown.md",
     "NIC Teaming.md",
-    "Active Directory Breaks When Using NAT.md",
     "Disable title bar for app window in i3-wm.md",
     "Licensing error while setting up Windows Server on VMware.md",
     "What's the difference between storages in Proxmox.md",
-    "Laptop lid doesn't go into sleep mode after you've closed it.md",
-    "README.md"
+    "Laptop lid doesn't go into sleep mode after you've closed it.md"
   ]
 }

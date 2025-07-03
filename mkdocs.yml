@@ -1,10 +1,15 @@
 site_name: Knowledge Base
 site_author: Dmytro Makaruk
 site_description: My personal documentation where I capture my learning process and document how I approach problems.
+
 repo_url: https://github.com/azavtyr/notes
 repo_name: azavtyr/notes
+
 theme:
   name: material
+  font:
+    text: Fira Sans
+    code: Fira Code
   icon:
     repo: fontawesome/brands/github-alt
     logo: material/arrow-left

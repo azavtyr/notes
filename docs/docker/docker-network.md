@@ -7,7 +7,7 @@ Docker networking allows containers to communicate with each other and external 
 * `none`
 * `overlay`
 
-> [!INFO]
+> [!NOTE]
 > Optional: A container may be connected to different types of networks. For example, an IPvlan network to provide internet access and a bridge network for access to local services.
 
 ## List all networks

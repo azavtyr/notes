@@ -1,0 +1,69 @@
+site_name: Knowledge Base
+repo_url: https://github.com/azavtyr/notes
+repo_name: azavtyr/notes
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github-alt
+    logo: material/arrow-left
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - header.autohide
+    - announce.dismiss
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+    - search.highlight
+    - search.share
+    - search.suggest  
+
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+plugins:
+  - search
+  - gh-admonitions
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/azavtyr
+    - icon: fontawesome/brands/signal-messenger
+      link: https://signal.me/#eu/iGtEhjjwNHXYVDC1Eki7izlwMxuZzFORDIjyI84h2Giz7WPlA9lMx5FsK4h-DEWt
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/jo0mez
+    - icon: fontawesome/solid/envelope
+      link: mailto:dmytro.m@tuta.io
+
+copyright: Copyright &copy; 2025 Dmytro Makaruk
+
+extra_css:
+  - stylesheets/extra.css

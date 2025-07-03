@@ -27,3 +27,4 @@ GFM supports five types of alerts:
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+

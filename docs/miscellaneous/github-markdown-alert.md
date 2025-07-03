@@ -1,3 +1,5 @@
+# Using Alerts in GitHub Flavored Markdown (GFM) for Enhanced Documentation
+
 I've recently discovered that GFM (also Obsidian and MkDocs) supports alerts which are a Markdown extension that you can use to emphasize important information.
 
 ```md

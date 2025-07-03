@@ -1,3 +1,5 @@
+# Fix VMware VM Windows Server Install Error
+
 When I was trying to power on the VM, I met an error telling me that Windows can't find Microsoft Software Licensing Terms.
 
 What's happened is that when you first create a VM, VMware adds floppy drive, which Windows thinks contains activation file (or something like it), which it doesn't, so the installation will fail all the time.

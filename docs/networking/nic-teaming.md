@@ -1,3 +1,5 @@
+# NIC Teaming
+
 NIC Teaming is a feature that allows to join multiple physical network cards into a single logical network card.
 
 Why may you need to combine multiple network adapters into a NIC Team?

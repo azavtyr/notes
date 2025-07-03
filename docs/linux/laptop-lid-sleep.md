@@ -1,3 +1,5 @@
+# Configure Laptop Lid Close Action and Screen Sleep Timeout
+
 ## Close laptop lid
 
 Edit `/etc/systemd/logind.conf`:

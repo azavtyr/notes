@@ -1,4 +1,6 @@
 site_name: Knowledge Base
+site_author: Dmytro Makaruk
+site_description: My personal documentation where I capture my learning process and document how I approach problems.
 repo_url: https://github.com/azavtyr/notes
 repo_name: azavtyr/notes
 theme:
@@ -17,7 +19,7 @@ theme:
     - navigation.instant
     - search.highlight
     - search.share
-    - search.suggest  
+    - search.suggest
 
   palette:
     - scheme: slate

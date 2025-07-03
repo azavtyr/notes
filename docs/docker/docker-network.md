@@ -1,3 +1,5 @@
+# Docker Network
+
 Docker networking allows containers to communicate with each other and external services. It provides the ability to isolate, secure, and scale applications. Docker's networking system is pluggable, which means you can choose the right tool for the job. There are several built-in drivers:
 
 * `bridge`

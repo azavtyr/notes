@@ -1,1 +1,3 @@
+# Understanding Proxmox Storage: local vs local-lvm
+
 With the default Proxmox setup, `local` stores the ISO images and container templates, and `local-lvm` stores the installed VMs and containers themselves. I would not recommend deleting `local-lvm` in order to resize `local`. That removes the ability to take snapshots of each VM and container, which is one of the most beneficial reasons to use a Type 1 hypervisor in the first place.

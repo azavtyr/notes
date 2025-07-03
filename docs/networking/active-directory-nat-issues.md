@@ -1,4 +1,4 @@
-# Active Directory Breaks When Using NAT
+# Resolving Active Directory Issues in Proxmox with Dual NIC and Host-Only Networking
 
 In a Proxmox-based lab, using only a single NAT network (via `vmbr0`) often leads to problems with Windows Server Active Directory and DNS, such as:
 
@@ -36,7 +36,7 @@ To fix this, each VM is configured with two virtual network interfaces:
 	- Subnet Mask: `255.255.255.0`
 	- Default Gateway: `192.168.100.1` (or leave blank)
 	- DNS: `192.168.100.5`
-## Notes
 
-- Keep **all domain-related traffic isolated**.
-- Don't set the default gateway on `vmbr1`, or clients may try to route internet traffic through the domain controller.
+> [!NOTE]
+> * Keep **all domain-related traffic isolated**.
+> * Don't set the default gateway on `vmbr1`, or clients may try to route internet traffic through the domain controller.

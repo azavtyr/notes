@@ -1,3 +1,5 @@
+# Docker Compose
+
 **Docker Compose** is a tool that allows you to run multiple containers with a single configuration file.
 
 The `docker-compose.yml` is the config file that defines all the services and parameters for containers to apply and run.

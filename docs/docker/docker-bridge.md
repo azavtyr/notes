@@ -1,3 +1,5 @@
+# Docker Bridge
+
 The bridge driver creates a private network for containers on the host machine. When you start Docker, it automatically creates a default bridge network on the host machine, represented by a virtual interface (`docker0`), which started containers connect to unless otherwise specified. Containers on the same bridge network can talk to each other via IP addresses. However, if you want to access a service (like a webserver) running in a container from your host machine, you'll need to expose ports to the host.
 
 ## User Defined Custom Bridge

@@ -1,3 +1,5 @@
+# Docker Image
+
 **Docker Images** are built using a **Dockerfile** with multiple layers, each representing filesystem changes. Layers are stacked on top of each other, forming a complete image.
 
 Layers are cached and can be reused. If layer already exists from a previous build, Docker will not create the new one, but instead will use cached layer, which significantly increases speed of the building process.

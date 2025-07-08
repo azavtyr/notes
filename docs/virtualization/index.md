@@ -1,3 +1,3 @@
-icon:material/server
+icon:material/desktop-classic
 
 # Virtualization

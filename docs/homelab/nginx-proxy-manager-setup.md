@@ -6,8 +6,6 @@ This guide documents how I set up Nginx Proxy Manager with Docker Compose, DuckD
 
 Update DuckDNS to point to your VM's IP. Then configure OpenWrt to resolve the domain locally:
 
-### Steps:
-
 1. Open OpenWrt: `Network > DHCP and DNS > General`
 1. Under Addresses, add: `/yourdomain.duckdns.org/vm-ip`
 1. Click `Save & Apply`

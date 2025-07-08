@@ -16,7 +16,7 @@ This allows local devices to resolve the domain without going to the internet.
 
 ## Docker Compose: Nginx Proxy Manager
 
-1. Create directory:
+* Create directory:
 
 ```sh
 mkdir nginx-proxy-manager/
@@ -24,7 +24,7 @@ cd nginx-proxy-manager/
 $EDITOR docker-compose.yml
 ```
 
-2. Edit `docker-compose.yml` file:
+* Edit `docker-compose.yml` file:
 
 ```yaml
 services:
@@ -47,13 +47,13 @@ networks:
     external: true
 ```
 
-3. Create the Docker network:
+* Create the Docker network:
 
 ```sh
 docker network create proxy
 ```
 
-4. Start the container:
+* Start the container:
 
 ```sh
 docker compose up -d
@@ -66,21 +66,22 @@ docker compose up -d
 
 1. Open browser: `http://<vm-ip>:81`
 1. Log in with:
-  * Email: `admin@example.com`
-  * Password: `changeme`
+    * Email: `admin@example.com`
+    * Password: `changeme`
 1. Set up the admin account:
-  * Change the email to a personal one.
-  * Update the password when prompted.
+    * Change the email to a personal one.
+    * Update the password when prompted.
 
 ## Set Up Let’s Encrypt SSL via DuckDNS
 
 1. Navigate to `SSL Certificates` > `Add SSL Certificate`
-1. Add:
-  * Domain names: `yourdomain.duckdns.org` `*.yourdomain.duckdns.org`
+1. Add Domain names:
+    * `yourdomain.duckdns.org`
+    * `*.yourdomain.duckdns.org`
 1. Use DNS Challenge:
-  * DNS Provider: DuckDNS
-  * API Token: Your DuckDNS token
-  * Propagation Time: 30 (increase to 120 if errors occur)
+    * DNS Provider: DuckDNS
+    * API Token: Your DuckDNS token
+    * Propagation Time: 30 (increase to 120 if errors occur)
 1. Accept TOS and click Save
 
 > [!NOTE]
@@ -91,16 +92,16 @@ docker compose up -d
 
 1. Navigate to `Proxy Hosts` > `Add Proxy Host`
 1. Fill in:
-  * Domain Names: proxy.yourdomain.duckdns.org
-  * Scheme: http
-  * Forward Hostname/IP: Container name (e.g., nginx-proxy-manager)
-  * Forward Port: 81 (or the port your app uses)
+    * Domain Names: proxy.yourdomain.duckdns.org
+    * Scheme: http
+    * Forward Hostname/IP: Container name (e.g., nginx-proxy-manager)
+    * Forward Port: 81 (or the port your app uses)
 1. Optional settings:
-  * Enable Websockets support, Block common exploits, or Asset caching as needed.
+    * Enable Websockets support, Block common exploits, or Asset caching as needed.
 1. Go to SSL tab:
-  * Select the created SSL certificate.
-  * Enable Force SSL and HTTP/2 Support.
-  * Click Save.
+    * Select the created SSL certificate.
+    * Enable Force SSL and HTTP/2 Support.
+    * Click Save.
 
 ## Test
 

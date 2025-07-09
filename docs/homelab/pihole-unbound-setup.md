@@ -101,6 +101,6 @@ To have your router forward all DNS queries to Pi-hole:
 
 This ensures all devices using your router will query DNS through Pi-hole and Unbound.
 
-# Complete
+## Complete
 
 Everything is now set up for ad blocking and private DNS resolution. Just remember to update blocklists regularly and keep the Docker image up to date.

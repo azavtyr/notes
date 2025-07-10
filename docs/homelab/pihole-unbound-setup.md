@@ -104,7 +104,7 @@ To have your router forward all DNS queries to Pi-hole:
 
 1. Go to OpenWRT Web Interface
 1. Navigate to: `Network > DHCP and DNS`
-1. Under `DNS forwards`, enter your VM IP (e.g. `192.168.1.100`)
+1. Under `DNS forwards`, enter the IP address assigned to the container (e.g. `192.168.0.150`)
 1. Click `Save & Apply`
 
 This ensures all devices using your router will query DNS through Pi-hole and Unbound.

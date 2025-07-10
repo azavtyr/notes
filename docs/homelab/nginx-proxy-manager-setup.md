@@ -25,6 +25,7 @@ $EDITOR docker-compose.yml
 * Edit `docker-compose.yml` file:
 
 ```yaml
+---
 services:
   service:
     image: 'jc21/nginx-proxy-manager:latest'
@@ -37,12 +38,14 @@ services:
       - '81:81'
       - '443:443'
     volumes:
-      - ./nginx-data:/nginx-data
-      - ./letsencrypt:/etc/letsencrypt
-
+      - nginx-data:/nginx-data
+      - nginx-letsencrypt:/etc/letsencrypt
 networks:
   proxy:
     external: true
+volumes:
+  nginx-data:
+  nginx-letsencrypt:
 ```
 
 * Create the Docker network:
@@ -90,10 +93,10 @@ docker compose up -d
 
 1. Navigate to `Proxy Hosts` > `Add Proxy Host`
 1. Fill in:
-    * Domain Names: proxy.yourdomain.duckdns.org
-    * Scheme: http
+    * Domain Names: `proxy.yourdomain.duckdns.org`
+    * Scheme: `http`
     * Forward Hostname/IP: Container name (e.g., nginx-proxy-manager)
-    * Forward Port: 81 (or the port your app uses)
+    * Forward Port: `81` (or the port your app uses)
 1. Optional settings:
     * Enable Websockets support, Block common exploits, or Asset caching as needed.
 1. Go to SSL tab:

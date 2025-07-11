@@ -46,10 +46,6 @@ services:
     restart: unless-stopped
 
 volumes:
-    - config_pihole:/etc/pihole
-    restart: unless-stopped
-
-volumes:
   config_pihole:
 
 networks:
@@ -74,9 +70,9 @@ networks:
 Set environment variables in the `.env` file:
 
 ```sh
-export HOSTNAME="$(hostname)" # Use system hostname
-export TZ="Region/Your_City"
-export FTLCONF_webserver_api_password="your-secure-password"
+HOSTNAME=pi-hole
+TZ="Region/Your_City"
+FTLCONF_webserver_api_password="your-secure-password"
 ```
 
 Then start the container:

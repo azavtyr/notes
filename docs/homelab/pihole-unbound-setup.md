@@ -90,7 +90,9 @@ To serve the Pi-hole web interface securely via HTTPS:
     * Domain: `dns.yourdomain.com`
     * Forward Hostname / IP: the IP of the Pi-hole container's host
     * Forward Port: `80`
-1. Enable SSL and request a Let's Encrypt certificate.
+1. Under the SSL tab:
+    * Choose the existing certificate from the dropdown
+    * Enable Force SSL and optionally HTTP/2.
 
 > Now you can access Pi-hole via `https://dns.yourdomain.com`.
 

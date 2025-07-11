@@ -44,16 +44,15 @@ networks:
 
 If you'd like to access Gitea via a custom domain like `git.yourdomain.com` and secure it with HTTPS, follow these steps:
 
-1. Access the Nginx Proxy Manager dashboard.
-1. Navigate to Proxy Hosts and click Add Proxy Host.
+1. Access the Nginx Proxy Manager dashboard
+1. Navigate to Proxy Hosts and click Add Proxy Host
 1. Enter the following details:
     * Domain: `git.yourdomain.com`
     * Forward Hostname / IP: `gitea`
     * Forward Port: `3000`
 1. Under the SSL tab:
-    * Check Enable SSL.
-    * Select Request a new SSL certificate via Let’s Encrypt.
-    * Optionally enable Force SSL and HTTP/2.
+    * Choose the existing certificate from the dropdown
+    * Enable Force SSL and optionally HTTP/2.
 
 Save the configuration.
 
